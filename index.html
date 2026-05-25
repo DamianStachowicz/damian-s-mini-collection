@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="i18n.js" defer></script>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title data-i18n="title"></title>
+  </head>
+
+  <body>
+    <header></header>
+    <section class="welcome">
+      <div class="welcome__container">
+        <h1 class="welcome__title" data-i18n="welcome_message"></h1>
+        <p class="welcome__description" data-i18n="description"></p>
+      </div>
+    </section>
+    <section class="minis-section warhammer-40k">
+      <h2 class="minis-section__title" data-i18n="warhammer_40k"></h2>
+      <ul class="minis-section__list">
+        <li class="minis-section__list-item">
+          <a href="/leagues-of-votann" data-i18n="leagues_of_votann"></a>
+        </li>
+        <li class="minis-section__list-item">
+          <a href="/raven-guard" data-i18n="raven_guard"></a>
+        </li>
+        <li class="minis-section__list-item">
+          <a href="/ultramarines" data-i18n="ultramarines"></a>
+        </li>
+      </ul>
+    </section>
+    <section class="minis-section minis-section--linked arbiter-miniatures">
+      <a class="minis-section__link" href="arbiter-miniatures">
+        <h2 class="minis-section__title" data-i18n="arbiter_miniatures"></h2>
+      </a>
+    </section>
+    <section class="minis-section minis-section--linked station-forge">
+      <a class="minis-section__link" href="station-forge">
+        <h2 class="minis-section__title" data-i18n="station_forge"></h2>
+      </a>
+    </section>
+    <section
+      class="minis-section minis-section--linked custom-mansions-of-madness"
+    >
+      <a class="minis-section__link" href="custom-mansions-of-madness">
+        <h2
+          class="minis-section__title"
+          data-i18n="custom_mansions_of_madness"
+        ></h2>
+      </a>
+    </section>
+    <section class="minis-section minis-section--linked other">
+      <a class="minis-section__link" href="other">
+        <h2 class="minis-section__title" data-i18n="other"></h2>
+      </a>
+    </section>
+
+    <footer class="footer">Damian Stachowicz-Le &copy; 2026</footer>
+  </body>
+</html>
