@@ -1,9 +1,5 @@
-:root {
-  --max-content-width: 60rem;
-}
-
 .welcome {
-  background: url("welcome-banner.webp") no-repeat center center;
+  background: url("leagues-of-votann.webp") no-repeat center center;
   background-size: cover;
   color: white;
   height: 40rem;

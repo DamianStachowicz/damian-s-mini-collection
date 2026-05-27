@@ -8,7 +8,7 @@ window.__i18n__ = {
   station_forge: "Station Forge",
   custom_mansions_of_madness: "Własne figurki do Mansions of Madness",
   other: "Inne",
-  leagues_of_votann: "Leagues of Votann",
-  raven_guard: "Raven Guard",
+  leagues_of_votann: "Ligi Votann",
+  raven_guard: "Krucza Gwardia",
   ultramarines: "Ultramarines",
 };
