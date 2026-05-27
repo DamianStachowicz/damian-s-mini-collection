@@ -1,0 +1,38 @@
+.welcome {
+  background-color: #0f1923;
+  background-size: cover;
+  color: white;
+  height: 40rem;
+  text-align: center;
+  width: 100%;
+
+  text-shadow:
+    2px 2px 0 #333,
+    2px -2px 0 #333,
+    -2px 2px 0 #333,
+    -2px -2px 0 #333,
+    2px 0px 0 #333,
+    0px 2px 0 #333,
+    -2px 0px 0 #333,
+    0px -2px 0 #333,
+    1px 1px 3px rgba(0, 0, 0, 0);
+}
+
+.welcome__container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 2rem;
+  width: 100%;
+}
+
+.welcome__title {
+  font-size: 2.5em;
+  padding-top: 6rem;
+}
+
+.welcome__description {
+  font-size: 1rem;
+  margin: 2rem auto;
+  max-width: var(--max-content-width);
+  text-align: justify;
+}
